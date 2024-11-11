@@ -1,0 +1,435 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+100.00   1132.97  1132.97   575000     0.00     0.00  calcular_seno()
+  0.00   1132.98     0.01      200     0.00     0.00  fibonacciIterativo(int)
+  0.00   1132.98     0.00     3200     0.00     0.00  int&& std::forward<int>(std::remove_reference<int>::type&)
+  0.00   1132.98     0.00     2400     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const
+  0.00   1132.98     0.00     1600     0.00     0.00  get_cpu_time(double&, double&)
+  0.00   1132.98     0.00     1600     0.00     0.00  std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const
+  0.00   1132.98     0.00     1600     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1000l> >::count() const
+  0.00   1132.98     0.00     1600     0.00     0.00  unsigned long long (*&std::forward<unsigned long long (*&)(int)>(std::remove_reference<unsigned long long (*&)(int)>::type&))(int)
+  0.00   1132.98     0.00      800     0.00     0.00  std::_Function_base::_M_empty() const
+  0.00   1132.98     0.00      800     0.00     1.42  std::function<long long (int)>::operator()(int) const
+  0.00   1132.98     0.00      800     0.00     0.00  std::_Any_data::_M_access() const
+  0.00   1132.98     0.00      800     0.00     0.00  unsigned long long (* const&std::_Any_data::_M_access<unsigned long long (*)(int)>() const)(int)
+  0.00   1132.98     0.00      800     0.00     0.00  std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_get_pointer(std::_Any_data const&)
+  0.00   1132.98     0.00      800     0.00     1.42  std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_invoke(std::_Any_data const&, int&&)
+  0.00   1132.98     0.00      800     0.00     0.00  std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1000l> > >::value, std::chrono::duration<double, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00   1132.98     0.00      800     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00   1132.98     0.00      800     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<double, void>(double const&)
+  0.00   1132.98     0.00      800     0.00     0.00  std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00   1132.98     0.00      800     0.00     0.00  std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&)
+  0.00   1132.98     0.00      800     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&)
+  0.00   1132.98     0.00      800     0.00     0.00  std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+  0.00   1132.98     0.00      800     0.00     1.42  std::enable_if<is_invocable_r_v<long long, unsigned long long (*&)(int), int>, long long>::type std::__invoke_r<long long, unsigned long long (*&)(int), int>(unsigned long long (*&)(int), int&&)
+  0.00   1132.98     0.00      800     0.00     0.00  unsigned long long (* const*std::__addressof<unsigned long long (* const)(int)>(unsigned long long (* const&)(int)))(int)
+  0.00   1132.98     0.00      800     0.00     1.42  unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&)
+  0.00   1132.98     0.00      240     0.00     0.00  unsigned long long (&std::forward<unsigned long long (&)(int)>(std::remove_reference<unsigned long long (&)(int)>::type&))(int)
+  0.00   1132.98     0.00      200     0.00     0.00  fatorialIterativo(int)
+  0.00   1132.98     0.00      200     0.00     0.02  fatorialRecursivo(int)
+  0.00   1132.98     0.00      200     0.00     5.64  fibonacciRecursivo(int)
+  0.00   1132.98     0.00      160     0.00     0.00  std::_Any_data::_M_access()
+  0.00   1132.98     0.00       80     0.00    14.16  measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&)
+  0.00   1132.98     0.00       80     0.00     0.00  std::char_traits<char>::length(char const*)
+  0.00   1132.98     0.00       80     0.00     0.00  std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_destroy(std::_Any_data&, std::integral_constant<bool, true>)
+  0.00   1132.98     0.00       80     0.00     0.00  std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+  0.00   1132.98     0.00       80     0.00     0.00  void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_init_functor<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int))
+  0.00   1132.98     0.00       80     0.00     0.00  bool std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_not_empty_function<unsigned long long (int)>(unsigned long long (*)(int))
+  0.00   1132.98     0.00       80     0.00     0.00  void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_create<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int), std::integral_constant<bool, true>)
+  0.00   1132.98     0.00       80     0.00     0.00  std::_Function_base::_Function_base()
+  0.00   1132.98     0.00       80     0.00     0.00  std::_Function_base::~_Function_base()
+  0.00   1132.98     0.00       80     0.00     0.00  std::__new_allocator<char>::~__new_allocator()
+  0.00   1132.98     0.00       80     0.00     0.00  std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+  0.00   1132.98     0.00       80     0.00     0.00  void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  0.00   1132.98     0.00       80     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  0.00   1132.98     0.00       80     0.00     0.00  std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int))
+  0.00   1132.98     0.00       80     0.00     0.00  std::function<long long (int)>::~function()
+  0.00   1132.98     0.00       80     0.00     0.00  unsigned long long (*&std::_Any_data::_M_access<unsigned long long (*)(int)>())(int)
+  0.00   1132.98     0.00       80     0.00     0.00  std::__is_constant_evaluated()
+  0.00   1132.98     0.00       80     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+  0.00   1132.98     0.00       80     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+  0.00   1132.98     0.00       80     0.00     0.00  operator new(unsigned long, void*)
+  0.00   1132.98     0.00       20     0.00    56.65  append_to_csv_files(int)
+  0.00   1132.98     0.00        1     0.00     0.00  initialize_csv_files()
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2024 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 0.00% of 1132.98 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00 1132.98                 main [1]
+                0.00 1132.98      20/20          append_to_csv_files(int) [7]
+                0.00    0.00       1/1           initialize_csv_files() [58]
+-----------------------------------------------
+                0.00 1132.98     800/800         measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [6]
+[2]    100.0    0.00 1132.98     800         std::function<long long (int)>::operator()(int) const [2]
+                0.00 1132.98     800/800         std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_invoke(std::_Any_data const&, int&&) [3]
+                0.00    0.00     800/800         std::_Function_base::_M_empty() const [24]
+                0.00    0.00     800/3200        int&& std::forward<int>(std::remove_reference<int>::type&) [18]
+-----------------------------------------------
+                0.00 1132.98     800/800         std::function<long long (int)>::operator()(int) const [2]
+[3]    100.0    0.00 1132.98     800         std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_invoke(std::_Any_data const&, int&&) [3]
+                0.00 1132.98     800/800         std::enable_if<is_invocable_r_v<long long, unsigned long long (*&)(int), int>, long long>::type std::__invoke_r<long long, unsigned long long (*&)(int), int>(unsigned long long (*&)(int), int&&) [4]
+                0.00    0.00     800/3200        int&& std::forward<int>(std::remove_reference<int>::type&) [18]
+                0.00    0.00     800/800         std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_get_pointer(std::_Any_data const&) [27]
+-----------------------------------------------
+                0.00 1132.98     800/800         std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_invoke(std::_Any_data const&, int&&) [3]
+[4]    100.0    0.00 1132.98     800         std::enable_if<is_invocable_r_v<long long, unsigned long long (*&)(int), int>, long long>::type std::__invoke_r<long long, unsigned long long (*&)(int), int>(unsigned long long (*&)(int), int&&) [4]
+                0.00 1132.98     800/800         unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+                0.00    0.00     800/3200        int&& std::forward<int>(std::remove_reference<int>::type&) [18]
+                0.00    0.00     800/1600        unsigned long long (*&std::forward<unsigned long long (*&)(int)>(std::remove_reference<unsigned long long (*&)(int)>::type&))(int) [23]
+-----------------------------------------------
+                0.00 1132.98     800/800         std::enable_if<is_invocable_r_v<long long, unsigned long long (*&)(int), int>, long long>::type std::__invoke_r<long long, unsigned long long (*&)(int), int>(unsigned long long (*&)(int), int&&) [4]
+[5]    100.0    0.00 1132.98     800         unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+                0.00 1128.83     200/200         fibonacciRecursivo(int) [9]
+                0.00    4.14     200/200         fatorialRecursivo(int) [10]
+                0.01    0.00     200/200         fibonacciIterativo(int) [11]
+                0.00    0.00     800/1600        unsigned long long (*&std::forward<unsigned long long (*&)(int)>(std::remove_reference<unsigned long long (*&)(int)>::type&))(int) [23]
+                0.00    0.00     800/3200        int&& std::forward<int>(std::remove_reference<int>::type&) [18]
+                0.00    0.00     200/200         fatorialIterativo(int) [37]
+-----------------------------------------------
+                0.00 1132.98      80/80          append_to_csv_files(int) [7]
+[6]    100.0    0.00 1132.98      80         measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [6]
+                0.00 1132.98     800/800         std::function<long long (int)>::operator()(int) const [2]
+                0.00    0.00    1600/1600        get_cpu_time(double&, double&) [20]
+                0.00    0.00     800/800         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [33]
+                0.00    0.00     800/800         std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [31]
+                0.00    0.00     800/1600        std::chrono::duration<double, std::ratio<1l, 1000l> >::count() const [22]
+-----------------------------------------------
+                0.00 1132.98      20/20          main [1]
+[7]    100.0    0.00 1132.98      20         append_to_csv_files(int) [7]
+                0.00 1132.98      80/80          measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [6]
+                0.00    0.00      80/80          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+                0.00    0.00      80/80          std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int)) [51]
+                0.00    0.00      80/80          std::function<long long (int)>::~function() [52]
+                0.00    0.00      80/80          std::__new_allocator<char>::~__new_allocator() [47]
+-----------------------------------------------
+                4.14    0.00    2100/575000      fatorialRecursivo(int) [10]
+             1128.83    0.00  572900/575000      fibonacciRecursivo(int) [9]
+[8]    100.0 1132.97    0.00  575000         calcular_seno() [8]
+-----------------------------------------------
+                              572700             fibonacciRecursivo(int) [9]
+                0.00 1128.83     200/200         unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+[9]     99.6    0.00 1128.83     200+572700  fibonacciRecursivo(int) [9]
+             1128.83    0.00  572900/575000      calcular_seno() [8]
+                              572700             fibonacciRecursivo(int) [9]
+-----------------------------------------------
+                                1900             fatorialRecursivo(int) [10]
+                0.00    4.14     200/200         unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+[10]     0.4    0.00    4.14     200+1900    fatorialRecursivo(int) [10]
+                4.14    0.00    2100/575000      calcular_seno() [8]
+                                1900             fatorialRecursivo(int) [10]
+-----------------------------------------------
+                0.01    0.00     200/200         unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+[11]     0.0    0.01    0.00     200         fibonacciIterativo(int) [11]
+-----------------------------------------------
+                0.00    0.00     800/3200        std::function<long long (int)>::operator()(int) const [2]
+                0.00    0.00     800/3200        std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_invoke(std::_Any_data const&, int&&) [3]
+                0.00    0.00     800/3200        std::enable_if<is_invocable_r_v<long long, unsigned long long (*&)(int), int>, long long>::type std::__invoke_r<long long, unsigned long long (*&)(int), int>(unsigned long long (*&)(int), int&&) [4]
+                0.00    0.00     800/3200        unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+[18]     0.0    0.00    0.00    3200         int&& std::forward<int>(std::remove_reference<int>::type&) [18]
+-----------------------------------------------
+                0.00    0.00     800/2400        std::chrono::duration<double, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [29]
+                0.00    0.00    1600/2400        std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [34]
+[19]     0.0    0.00    0.00    2400         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [19]
+-----------------------------------------------
+                0.00    0.00    1600/1600        measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [6]
+[20]     0.0    0.00    0.00    1600         get_cpu_time(double&, double&) [20]
+-----------------------------------------------
+                0.00    0.00    1600/1600        std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [33]
+[21]     0.0    0.00    0.00    1600         std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [21]
+-----------------------------------------------
+                0.00    0.00     800/1600        measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [6]
+                0.00    0.00     800/1600        std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [31]
+[22]     0.0    0.00    0.00    1600         std::chrono::duration<double, std::ratio<1l, 1000l> >::count() const [22]
+-----------------------------------------------
+                0.00    0.00     800/1600        std::enable_if<is_invocable_r_v<long long, unsigned long long (*&)(int), int>, long long>::type std::__invoke_r<long long, unsigned long long (*&)(int), int>(unsigned long long (*&)(int), int&&) [4]
+                0.00    0.00     800/1600        unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+[23]     0.0    0.00    0.00    1600         unsigned long long (*&std::forward<unsigned long long (*&)(int)>(std::remove_reference<unsigned long long (*&)(int)>::type&))(int) [23]
+-----------------------------------------------
+                0.00    0.00     800/800         std::function<long long (int)>::operator()(int) const [2]
+[24]     0.0    0.00    0.00     800         std::_Function_base::_M_empty() const [24]
+-----------------------------------------------
+                0.00    0.00     800/800         unsigned long long (* const&std::_Any_data::_M_access<unsigned long long (*)(int)>() const)(int) [26]
+[25]     0.0    0.00    0.00     800         std::_Any_data::_M_access() const [25]
+-----------------------------------------------
+                0.00    0.00     800/800         std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_get_pointer(std::_Any_data const&) [27]
+[26]     0.0    0.00    0.00     800         unsigned long long (* const&std::_Any_data::_M_access<unsigned long long (*)(int)>() const)(int) [26]
+                0.00    0.00     800/800         std::_Any_data::_M_access() const [25]
+-----------------------------------------------
+                0.00    0.00     800/800         std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_invoke(std::_Any_data const&, int&&) [3]
+[27]     0.0    0.00    0.00     800         std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_get_pointer(std::_Any_data const&) [27]
+                0.00    0.00     800/800         unsigned long long (* const&std::_Any_data::_M_access<unsigned long long (*)(int)>() const)(int) [26]
+                0.00    0.00     800/800         unsigned long long (* const*std::__addressof<unsigned long long (* const)(int)>(unsigned long long (* const&)(int)))(int) [35]
+-----------------------------------------------
+                0.00    0.00     800/800         std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [31]
+[28]     0.0    0.00    0.00     800         std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1000l> > >::value, std::chrono::duration<double, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [28]
+                0.00    0.00     800/800         std::chrono::duration<double, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [29]
+-----------------------------------------------
+                0.00    0.00     800/800         std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1000l> > >::value, std::chrono::duration<double, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [28]
+[29]     0.0    0.00    0.00     800         std::chrono::duration<double, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [29]
+                0.00    0.00     800/2400        std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [19]
+                0.00    0.00     800/800         std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<double, void>(double const&) [30]
+-----------------------------------------------
+                0.00    0.00     800/800         std::chrono::duration<double, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [29]
+[30]     0.0    0.00    0.00     800         std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<double, void>(double const&) [30]
+-----------------------------------------------
+                0.00    0.00     800/800         measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [6]
+[31]     0.0    0.00    0.00     800         std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [31]
+                0.00    0.00     800/800         std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1000l> > >::value, std::chrono::duration<double, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [28]
+                0.00    0.00     800/1600        std::chrono::duration<double, std::ratio<1l, 1000l> >::count() const [22]
+-----------------------------------------------
+                0.00    0.00     800/800         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [34]
+[32]     0.0    0.00    0.00     800         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [32]
+-----------------------------------------------
+                0.00    0.00     800/800         measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [6]
+[33]     0.0    0.00    0.00     800         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [33]
+                0.00    0.00    1600/1600        std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [21]
+                0.00    0.00     800/800         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [34]
+-----------------------------------------------
+                0.00    0.00     800/800         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [33]
+[34]     0.0    0.00    0.00     800         std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [34]
+                0.00    0.00    1600/2400        std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [19]
+                0.00    0.00     800/800         std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [32]
+-----------------------------------------------
+                0.00    0.00     800/800         std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_get_pointer(std::_Any_data const&) [27]
+[35]     0.0    0.00    0.00     800         unsigned long long (* const*std::__addressof<unsigned long long (* const)(int)>(unsigned long long (* const&)(int)))(int) [35]
+-----------------------------------------------
+                0.00    0.00      80/240         std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int)) [51]
+                0.00    0.00      80/240         void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_init_functor<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int)) [42]
+                0.00    0.00      80/240         void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_create<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int), std::integral_constant<bool, true>) [44]
+[36]     0.0    0.00    0.00     240         unsigned long long (&std::forward<unsigned long long (&)(int)>(std::remove_reference<unsigned long long (&)(int)>::type&))(int) [36]
+-----------------------------------------------
+                0.00    0.00     200/200         unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&) [5]
+[37]     0.0    0.00    0.00     200         fatorialIterativo(int) [37]
+-----------------------------------------------
+                0.00    0.00      80/160         void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_create<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int), std::integral_constant<bool, true>) [44]
+                0.00    0.00      80/160         unsigned long long (*&std::_Any_data::_M_access<unsigned long long (*)(int)>())(int) [53]
+[38]     0.0    0.00    0.00     160         std::_Any_data::_M_access() [38]
+-----------------------------------------------
+                0.00    0.00      80/80          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+[39]     0.0    0.00    0.00      80         std::char_traits<char>::length(char const*) [39]
+                0.00    0.00      80/80          std::__is_constant_evaluated() [54]
+-----------------------------------------------
+                0.00    0.00      80/80          std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [41]
+[40]     0.0    0.00    0.00      80         std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_destroy(std::_Any_data&, std::integral_constant<bool, true>) [40]
+                0.00    0.00      80/80          unsigned long long (*&std::_Any_data::_M_access<unsigned long long (*)(int)>())(int) [53]
+-----------------------------------------------
+                0.00    0.00      80/80          std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [48]
+[41]     0.0    0.00    0.00      80         std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [41]
+                0.00    0.00      80/80          std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_destroy(std::_Any_data&, std::integral_constant<bool, true>) [40]
+-----------------------------------------------
+                0.00    0.00      80/80          std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int)) [51]
+[42]     0.0    0.00    0.00      80         void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_init_functor<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int)) [42]
+                0.00    0.00      80/240         unsigned long long (&std::forward<unsigned long long (&)(int)>(std::remove_reference<unsigned long long (&)(int)>::type&))(int) [36]
+                0.00    0.00      80/80          void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_create<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int), std::integral_constant<bool, true>) [44]
+-----------------------------------------------
+                0.00    0.00      80/80          std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int)) [51]
+[43]     0.0    0.00    0.00      80         bool std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_not_empty_function<unsigned long long (int)>(unsigned long long (*)(int)) [43]
+-----------------------------------------------
+                0.00    0.00      80/80          void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_init_functor<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int)) [42]
+[44]     0.0    0.00    0.00      80         void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_create<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int), std::integral_constant<bool, true>) [44]
+                0.00    0.00      80/160         std::_Any_data::_M_access() [38]
+                0.00    0.00      80/80          operator new(unsigned long, void*) [57]
+                0.00    0.00      80/240         unsigned long long (&std::forward<unsigned long long (&)(int)>(std::remove_reference<unsigned long long (&)(int)>::type&))(int) [36]
+-----------------------------------------------
+                0.00    0.00      80/80          std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int)) [51]
+[45]     0.0    0.00    0.00      80         std::_Function_base::_Function_base() [45]
+-----------------------------------------------
+                0.00    0.00      80/80          std::function<long long (int)>::~function() [52]
+[46]     0.0    0.00    0.00      80         std::_Function_base::~_Function_base() [46]
+                0.00    0.00      80/80          std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [48]
+-----------------------------------------------
+                0.00    0.00      80/80          append_to_csv_files(int) [7]
+[47]     0.0    0.00    0.00      80         std::__new_allocator<char>::~__new_allocator() [47]
+-----------------------------------------------
+                0.00    0.00      80/80          std::_Function_base::~_Function_base() [46]
+[48]     0.0    0.00    0.00      80         std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [48]
+                0.00    0.00      80/80          std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [41]
+-----------------------------------------------
+                0.00    0.00      80/80          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+[49]     0.0    0.00    0.00      80         void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [49]
+                0.00    0.00      80/80          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [55]
+                0.00    0.00      80/80          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard() [56]
+-----------------------------------------------
+                0.00    0.00      80/80          append_to_csv_files(int) [7]
+[50]     0.0    0.00    0.00      80         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [50]
+                0.00    0.00      80/80          std::char_traits<char>::length(char const*) [39]
+                0.00    0.00      80/80          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [49]
+-----------------------------------------------
+                0.00    0.00      80/80          append_to_csv_files(int) [7]
+[51]     0.0    0.00    0.00      80         std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int)) [51]
+                0.00    0.00      80/80          std::_Function_base::_Function_base() [45]
+                0.00    0.00      80/80          bool std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_not_empty_function<unsigned long long (int)>(unsigned long long (*)(int)) [43]
+                0.00    0.00      80/240         unsigned long long (&std::forward<unsigned long long (&)(int)>(std::remove_reference<unsigned long long (&)(int)>::type&))(int) [36]
+                0.00    0.00      80/80          void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_init_functor<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int)) [42]
+-----------------------------------------------
+                0.00    0.00      80/80          append_to_csv_files(int) [7]
+[52]     0.0    0.00    0.00      80         std::function<long long (int)>::~function() [52]
+                0.00    0.00      80/80          std::_Function_base::~_Function_base() [46]
+-----------------------------------------------
+                0.00    0.00      80/80          std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_destroy(std::_Any_data&, std::integral_constant<bool, true>) [40]
+[53]     0.0    0.00    0.00      80         unsigned long long (*&std::_Any_data::_M_access<unsigned long long (*)(int)>())(int) [53]
+                0.00    0.00      80/160         std::_Any_data::_M_access() [38]
+-----------------------------------------------
+                0.00    0.00      80/80          std::char_traits<char>::length(char const*) [39]
+[54]     0.0    0.00    0.00      80         std::__is_constant_evaluated() [54]
+-----------------------------------------------
+                0.00    0.00      80/80          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [49]
+[55]     0.0    0.00    0.00      80         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) [55]
+-----------------------------------------------
+                0.00    0.00      80/80          void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [49]
+[56]     0.0    0.00    0.00      80         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard() [56]
+-----------------------------------------------
+                0.00    0.00      80/80          void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_create<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int), std::integral_constant<bool, true>) [44]
+[57]     0.0    0.00    0.00      80         operator new(unsigned long, void*) [57]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[58]     0.0    0.00    0.00       1         initialize_csv_files() [58]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2024 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [20] get_cpu_time(double&, double&) [40] std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_destroy(std::_Any_data&, std::integral_constant<bool, true>) [34] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<long, std::ratio<1l, 1000000000l>, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&)
+   [8] calcular_seno()        [41] std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [49] void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+  [37] fatorialIterativo(int) [27] std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_get_pointer(std::_Any_data const&) [50] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  [10] fatorialRecursivo(int) [42] void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_init_functor<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int)) [51] std::function<long long (int)>::function<unsigned long long (&)(int), void>(unsigned long long (&)(int))
+  [11] fibonacciIterativo(int) [43] bool std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_not_empty_function<unsigned long long (int)>(unsigned long long (*)(int)) [52] std::function<long long (int)>::~function()
+   [9] fibonacciRecursivo(int) [44] void std::_Function_base::_Base_manager<unsigned long long (*)(int)>::_M_create<unsigned long long (&)(int)>(std::_Any_data&, unsigned long long (&)(int), std::integral_constant<bool, true>) [38] std::_Any_data::_M_access()
+   [7] append_to_csv_files(int) [45] std::_Function_base::_Function_base() [53] unsigned long long (*&std::_Any_data::_M_access<unsigned long long (*)(int)>())(int)
+  [58] initialize_csv_files() [46] std::_Function_base::~_Function_base() [4] std::enable_if<is_invocable_r_v<long long, unsigned long long (*&)(int), int>, long long>::type std::__invoke_r<long long, unsigned long long (*&)(int), int>(unsigned long long (*&)(int), int&&)
+   [6] measure_execution_time(std::function<long long (int)> const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::basic_ofstream<char, std::char_traits<char> >&) [47] std::__new_allocator<char>::~__new_allocator() [35] unsigned long long (* const*std::__addressof<unsigned long long (* const)(int)>(unsigned long long (* const&)(int)))(int)
+  [24] std::_Function_base::_M_empty() const [48] std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) [5] unsigned long long std::__invoke_impl<unsigned long long, unsigned long long (*&)(int), int>(std::__invoke_other, unsigned long long (*&)(int), int&&)
+  [21] std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::time_since_epoch() const [3] std::_Function_handler<long long (int), unsigned long long (*)(int)>::_M_invoke(std::_Any_data const&, int&&) [54] std::__is_constant_evaluated()
+  [22] std::chrono::duration<double, std::ratio<1l, 1000l> >::count() const [28] std::enable_if<std::chrono::__is_duration<std::chrono::duration<double, std::ratio<1l, 1000l> > >::value, std::chrono::duration<double, std::ratio<1l, 1000l> > >::type std::chrono::duration_cast<std::chrono::duration<double, std::ratio<1l, 1000l> >, long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [36] unsigned long long (&std::forward<unsigned long long (&)(int)>(std::remove_reference<unsigned long long (&)(int)>::type&))(int)
+  [19] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::count() const [29] std::chrono::duration<double, std::ratio<1l, 1000l> > std::chrono::__duration_cast_impl<std::chrono::duration<double, std::ratio<1l, 1000l> >, std::ratio<1l, 1000000l>, double, true, false>::__cast<long, std::ratio<1l, 1000000000l> >(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [23] unsigned long long (*&std::forward<unsigned long long (*&)(int)>(std::remove_reference<unsigned long long (*&)(int)>::type&))(int)
+   [2] std::function<long long (int)>::operator()(int) const [30] std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<double, void>(double const&) [18] int&& std::forward<int>(std::remove_reference<int>::type&)
+  [25] std::_Any_data::_M_access() const [31] std::chrono::duration<double, std::ratio<1l, 1000l> >::duration<long, std::ratio<1l, 1000000000l>, void>(std::chrono::duration<long, std::ratio<1l, 1000000000l> > const&) [55] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+  [26] unsigned long long (* const&std::_Any_data::_M_access<unsigned long long (*)(int)>() const)(int) [32] std::chrono::duration<long, std::ratio<1l, 1000000000l> >::duration<long, void>(long const&) [56] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+  [39] std::char_traits<char>::length(char const*) [33] std::common_type<std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >::type std::chrono::operator-<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> >, std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) [57] operator new(unsigned long, void*)
